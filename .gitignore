@@ -1,0 +1,38 @@
+# LaTeX/TeXで生成される一時ファイルと補助ファイル
+
+# 補助ファイル
+*.aux
+*.bbl
+*.blg
+*.idx
+*.ind
+*.lof
+*.lot
+*.out
+*.toc
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.fls
+*.log
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+_minted*
+*.dvi
+*.xdv
+*.ltx
+
+# ★★★ 変更点：outフォルダはGit管理する ★★★
+# out/ フォルダ自体は無視しない
+
+# VS Codeの一時ファイルや設定ファイル
+.vscode/settings.json
+.vscode/settings.json.bak
+.vscode/*.log
